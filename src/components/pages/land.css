@@ -1,0 +1,147 @@
+.main{
+    padding-top: 5.5em;
+}
+#rpsImg {
+    padding-top: 5em;
+    text-align: center;
+}
+#rpsImg img{
+    height: 19em;
+}
+.paragraphs{
+    padding-top: 5em;
+    display: flex;
+    flex-wrap: wrap;
+
+     top: 15.5em;
+     justify-content: center;
+     width: 100%;
+    }
+.paragraph {
+    min-width: 7em;
+    padding: 1.5em;
+    width: 10em;
+    font-family: 'Open Sans', sans-serif;
+    color: #A54265;
+    font-size: 1.4em;
+}
+.paragraph h3{
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em;
+
+}
+.bigButton {
+    background-color: #A54265;
+    border: none;
+    color: white;
+    padding: 1em 1em;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 3em;
+    cursor: pointer;
+    border-radius: .25em;
+    font-family: 'Fredoka One', cursive;
+
+
+}
+.buttonContainer{
+    margin-top: 5em;
+    margin-left: 10em;
+
+
+
+}
+@media only screen and (max-width: 1301px) {
+.buttonContainer{
+    margin-left: 0;
+
+}}
+
+@media only screen and (max-width: 1024px) {
+    #rpsImg img {
+height: 12em;    }
+
+.paragraphs{
+    font-size: 1em;
+    padding: 0em;
+justify-content: center;
+} 
+  .paragraph{
+    padding: .5em;
+    padding-top: 2em;
+    text-align: center;
+    flex-basis: 100%;
+    width: 0;
+    max-width: .5 em;
+}  
+    .paragraph h3{
+        margin: 0;
+}
+.bigButton{
+
+    font-size: 1.25em;
+
+
+}
+}
+@media only screen and (max-width: 635px) {
+    #rpsImg {
+      display: none;
+    }
+  .main{
+      padding: 0.75em;
+  }
+  .paragraphs{
+      margin-top: 10EM;
+    align-items: center;
+    font-size: 1em;
+    flex-direction: column;
+    padding: 0em;
+    
+
+}
+.bigButton a{
+
+    margin-top: 100em;
+
+ }
+.paragraph{
+    padding: 0;
+    margin: 0;
+    max-width: .5em;
+    min-width: 15em;
+
+}
+  
+
+}
+@media only screen and (max-width: 1450px) {
+    .bigButton{
+       margin: 0;
+       max-height: 3em;
+
+    }
+     }
+     @media only screen and (max-width: 1280px) {
+        .bigButton {
+           margin-top: 1em;
+    
+        }}
+@media only screen and (max-width: 1135px) {
+    .bigButton {
+       margin: 0 auto;
+       max-height: 3em;
+
+    }
+    .buttonContainer a{
+        margin-bottom: 3em;
+    }
+    .paragraph{
+
+        text-align: center;
+    }
+     }
+     @media only screen and (max-width: 400px) {
+        .paragraphs{
+            margin-top: 5EM;}}

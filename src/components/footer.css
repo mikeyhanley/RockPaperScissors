@@ -1,0 +1,15 @@
+footer {
+    position: fixed;
+    height: 3em;
+    font-family: 'Open Sans', sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+@media only screen and (max-width:768px) {
+    footer {
+        display: none;
+    }
+    }

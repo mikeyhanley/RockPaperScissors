@@ -1,0 +1,58 @@
+.signUpForum{
+    display: flex;
+    flex-direction: column;
+    max-width:  30%;
+    margin: auto;
+
+
+
+}
+.signUpForum  input{
+        padding: 1em 0em 1em 0em;
+        margin: 1em 0em 1em 0em ; 
+        border-radius: .5em;
+        border-style: none;
+        background-color: #fbe2eb;
+
+
+      }
+.signUpForum  input[type="text"], .signUpForum  input[type="password"]{
+    padding-left: 1em;
+}
+
+.signUpForum h1{
+    font-family: 'Fredoka One', cursive;
+    font-weight:normal;
+    text-align: center;
+    color: #A54265;
+    font-size: 3em;
+}
+.signUpForum label{
+
+}
+.signUpForum p, .signUpForum a{
+    font-family: 'Fredoka One', cursive;
+    border-radius: .5em;
+    border: none;
+    padding: .5em 0em .5em 0em;
+    margin-top: 1em ; 
+    color: white;
+    background-color: #A54265 ;
+    width: 100%;
+    box-sizing: content-box;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 650px) {
+    .signUpForum{
+        
+        max-width: 50%;
+    }
+    .signUpForum h1{
+        font-size: 2em;
+        margin-top: 2.5em;
+    }
+}
